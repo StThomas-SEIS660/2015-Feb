@@ -1,2 +1,4 @@
 == IT Infrastructure at University of St. Thomas (Minnesota, US)
 === Spring Semester, 2015
+
+[source,shell]
