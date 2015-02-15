@@ -277,8 +277,8 @@ Now, you should be able to start your virtual machine!
 
 Congratulations! But, what does this all mean? 
 
-You now have your own personal Linux machine, operating within the main seis660 server, on which you are the administrator. You have tremendous freedom to experiment with its configuration. If you damage something, you simply need to exit out to the main seis660 command prompt and run "vagrant destroy." This will erase the machine. You can then run "vagrant up" again and the machine will be restored. Note, if you destroy the VM you will LOSE ALL DATA you have on the machine, unless that data is stored in your ~/vagrant directory.
+You now have your own personal Linux machine, operating within the main course server, on which you are the administrator. You have tremendous freedom to experiment with its configuration. If you damage something, you simply need to exit out to the main server command prompt and run "vagrant destroy." This will erase the machine. You can then run "vagrant up" again and the machine will be restored. Note, if you destroy the VM you will LOSE ALL DATA you have on the machine, unless that data is stored in your ~/vagrant directory.
 
-DO NOT ATTEMPT to bridge your VM to the external world. It is not hardened and quite vulnerable. As long as you do not mess with the network configuration, you will be fine. In a future lab, you will see how to run Firefox on the seis660 server in a X11 window over ssh on your local machine, so you can safely browse to your VM. 
+DO NOT ATTEMPT to bridge your VM to the external world. It is not hardened and possibly vulnerable. As long as you do not mess with the network configuration, you will be fine. In a future lab, you will see how to run Firefox on the course server in a X11 window over ssh on your local machine, so you can safely browse to your VM. 
 
 For further information, see https://docs.vagrantup.com/.
