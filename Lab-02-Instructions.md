@@ -126,20 +126,23 @@ What did we just do?
 3. We changed the permissions on the key so that only we can read and write it (ssh requires this).
 However, this isn't enough. We need to tell Vagrant to look at this key, not its default. So:
 
-		teststu1@seis660:~/.ssh$ cd ../vagrant/	
-		teststu1@seis660:~/vagrant$ nano Vagrantfile
-		GNU nano 2.2.6                   File: Vagrantfile
-	
-	  # -*- mode: ruby -*-
+
+
+```
+teststu1@seis660:~/.ssh$ cd ../vagrant/	
+teststu1@seis660:~/vagrant$ nano Vagrantfile
+GNU nano 2.2.6                   File: Vagrantfile
+
+# -*- mode: ruby -*-
 	  
-	  # vi: set ft=ruby :
+# vi: set ft=ruby :
 	
-	  # All Vagrant configuration is done below. The "2" in Vagrant.configure
-	  # configures the configuration version (we support older styles for
-	  # backwards compatibility). Please don't change it unless you know what
-	  # you're doing.
-	Vagrant.configure(2) do |config|
-	  # The most common configuration options are documented and commented below.
+# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# configures the configuration version (we support older styles for
+# backwards compatibility). Please don't change it unless you know what
+# you're doing.
+Vagrant.configure(2) do |config|
+# The most common configuration options are documented and commented below.
 	  # For a complete reference, please see the online documentation at
 	  # https://docs.vagrantup.com.
 	
@@ -205,7 +208,7 @@ However, this isn't enough. We need to tell Vagrant to look at this key, not its
 	                                        [ Read 71 lines ]
 	^G Get Help     ^O WriteOut     ^R Read File    ^Y Prev Page    ^K Cut Text     ^C Cur Pos
 	^X Exit         ^J Justify      ^W Where Is     ^V Next Page    ^U UnCut Text   ^T To Spell
-	
+```	
 
 The above is a representation of being in nano, a simple editor for Linux (easier to learn than vi). In the Vagrantfile, use your down arrow key until you find the line:
 
