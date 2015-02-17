@@ -88,8 +88,7 @@ What happened? Let's do a little troubleshooting. Unlike a lot of error messages
 
 When you create a new virtual machine with Vagrant and VirtualBox, Vagrant needs to be able to talk to it on your behalf, and uses .ssh for this purpose. Just as we created a private key for you to hold on your laptop, with a matching public key on the server, so you need to have ANOTHER private/public key pair to communicate between your ssh session running directly on seis660, and your new virtual machine. And, because the Vagrant machine is pre-baked (more on this to come), you have to start by using a predefined key pair that comes with Vagrant. 
 
-Review the image below. Right-click and open the image below in its own window or tab if it is too small. 
-![ssh](Resources/sshDetails.jpg) 
+Review the image below. Right-click and open the image below in its own window or tab if it is too small.  ![architecture](Resources/sshDetails.jpg) 
 
 
 So, let's copy the key to your own .ssh directory. First, we need to clean up our failed attempt:
