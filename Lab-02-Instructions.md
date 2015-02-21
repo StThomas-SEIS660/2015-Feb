@@ -62,6 +62,19 @@ You should see the following:
 	the comments in the Vagrantfile as well as documentation on
 	`vagrantup.com` for more information on using Vagrant.
 	teststu1@seis660:~/vagrant$
+	
+If you get an error with "vagrant up" like this:
+
+````
+An error occurred while downloading the remote file. The error message, if any, is reproduced below. Please fix this error and try again.
+
+
+Couldn't open file /home/student/akou0009/vagrant/precise64
+````
+
+try 
+
+    vagrant box add "precise64" http://files.vagrantup.com/precise64.box
 
 Now, let's try something that will not work:
 
