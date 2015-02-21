@@ -3,7 +3,7 @@
 Vagrant is already installed on the SEIS660 course server, but you need to take a few steps before you can use it. 
 Assuming you have .ssh configured and have logged in, you should find yourself in your default directory.
 
-Note, in the following instructions when you see teststu1, substitute your user id. What you should type appears in blue. Things especially to notice are in {==yellow==}.
+Note, in the following instructions when you see teststu1, substitute your user id. 
 
 Do not type the "$" symbol - this represents the command prompt you see when you log into Linux. It may also be a "#" or have some directory information in front of it, e.g. 
 
